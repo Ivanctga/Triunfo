@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ivan Lopes">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Star Wars</title>
+</head>
+
+<body>
+
+    <header>
+
+        <a href="./index.html">
+
+            <div class="logo">
+                <img class="logo-img" src="src/img/logo.png" alt="logo">
+                <span class="logo-text">Characters</span>
+            </div><!--logo-->
+        </a>
+
+        <div class="social-media">
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class='bx bxl-instagram-alt'></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class='bx bxl-facebook-circle'></i>
+            </a>
+            <a href="https://github.com/login" target="_blank">
+                <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <i class='bx bxl-linkedin-square'></i>
+            </a>
+        </div>
+    </header>
+
+
+    <div class="main-container">
+
+        <h2>Conheca todos os personagens de star Wars em um so lugar</h2>
+
+        <div class="main-content" id="main-content">            
+        </div><!--main-content-->
+
+        <div class="modal" id="modal" onclick="hideModal()">
+            <div class="modal-content" id="modal-content"></div>
+        </div><!--modal-->
+
+        <div class="buttons">
+            <button id="back-button" disabled>Anterior</button>
+            <button id="next-button" disabled>Próximo</button>
+        </div><!--button-->
+
+    </div><!--main-container-->
+
+    <footer>
+        <p class="footer-logo">Star Wars Characters</p>
+        <p class="copyrigth">Desenvolvido por &copy; Ivan Lopes</p>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="src/js/script.js"></script>
+
+</body>
+
+</html>
